@@ -24,7 +24,7 @@ def inbound():
     delay = random.uniform(0, 10)
     time.sleep(delay)
     application.logger.debug( '========POST REQUEST @ /slack=========')
-    response = {'username': my_bot_name, 'icon_emoji': ':robot_face:', 'text': '','attachments':[]}
+    response = {'username': my_bot_name, 'icon_emoji': ':snowman:', 'text': '','attachments':[]}
     application.logger.debug( 'FORM DATA RECEIVED IS:')
     application.logger.debug( request.form)
 
